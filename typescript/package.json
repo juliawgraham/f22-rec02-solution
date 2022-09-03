@@ -1,24 +1,17 @@
 {
-  "name": "rec10",
+  "name": "rec02",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "serve": "node dist/index.js",
-    "dev": "nodemon -e ts --exec \"tsc; node dist/index.js\""
+    "lint": "ts-standard",
+    "start": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.13",
-    "typescript": "^4.4.3"
-  },
-  "dependencies": {
-    "@types/express": "^4.17.13",
-    "@types/express-handlebars": "^5.3.1",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.4",
-    "handlebars": "^4.7.7"
+    "ts-standard": "^10.0.0",
+    "typescript": "^4.4.2"
   }
 }
