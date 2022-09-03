@@ -11,7 +11,7 @@ public class Line {
         this.point2 = point2;
     }
 
-    void draw() {
+    public void draw() {
         int x1 = point1.getX();
         int y1 = point1.getY();
         int x2 = point2.getX();
